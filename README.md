@@ -7,7 +7,7 @@ Developers:  Caution with the code, fix bugs. check them, do not damage the bot.
 
 Testers: Test the code carefully, report anything that you see. including violations.
 
-This branch is specifically for discussion, reports, etc.
+The branch named Main is for discussion reports etc.
 For the API and Backend use the branch: InvertBotCore.
 
 WRITERN BY: AlanplayOficial.
