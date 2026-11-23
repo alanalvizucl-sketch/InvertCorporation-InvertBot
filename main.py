@@ -29,9 +29,9 @@ async def on_ready():
     print(f'Bot conectado como {bot.user} y comandos / sincronizados!')
 
 # 3. Comando Slash: /test
-@bot.tree.command(name="test", description="Prueba si el bot está funcionando")
+@bot.tree.command(name="test", description="testing.")
 async def test(interaction: discord.Interaction):
-    await interaction.response.send_message("test")
+    await interaction.response.send_message("hi fellow user")
 
 # 4. Arrancar servidor web y bot
 Thread(target=run_web).start()
